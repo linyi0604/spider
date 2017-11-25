@@ -1,0 +1,49 @@
+数据库说明:
+    存储在mongodb当中
+        主机 127.0.0.1
+        端口 27017
+        集合名称 agency
+        首批数据存入 db.e
+        重复数据存入 db.e2
+
+
+运行环境:
+    python3环境
+    需要创建一个虚拟环境 python3版本,然后下载一些依赖包
+    下载依赖包命令: pip install 依赖包名称
+    依赖包: 在requires.txt 中
+
+    可以创建好python3 虚拟环境后,在虚拟环境中执行 pip install -r requires.txt 进行一键全部安装
+
+
+58同城 字段映射说明:
+  "name": 经纪人姓名
+  "phone": 经纪人电话号码
+  "head_picture_href":经纪人头像的链接
+  "agency_name": 经纪人当前所在公司名称
+  "store_name": 经纪人当前所在门店名称
+  "area": 经纪人服务的区域
+  'dept_list': 经纪人服务的小区列表
+
+  "detail_url": 当前经纪人的个人主页链接(与业务无关,爬虫需要)
+  "href": 当前数据所在链接(与业务无关,爬虫需要字段)
+
+赶集网 字段映射说明:
+  "name": 经纪人姓名
+  "phone": 经纪人电话号码
+  "head_picture_href":经纪人头像的链接
+  "agency_name": 经纪人当前所在公司名称
+  "area": 经纪人服务的区域
+  'dept_list': 经纪人服务的小区列表
+
+
+安居客 字段映射说明:
+  "name": 经纪人姓名
+  "phone": 经纪人电话号码
+  "head_picture_href":经纪人头像的链接
+  "agency_name": 经纪人当前所在公司名称
+  "store_name": 经纪人当前所在门店名称
+  "area": 经纪人服务的区域
+  'dept_list': 经纪人服务的小区列表
+
+  "href": 当前数据所在链接(与业务无关,爬虫需要字段)
